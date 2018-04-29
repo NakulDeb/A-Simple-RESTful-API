@@ -35,5 +35,6 @@ const DeptSchema = new Schema({
     
 });
 
+
 const Dept = mongoose.model('dept',DeptSchema);
 module.exports = Dept;

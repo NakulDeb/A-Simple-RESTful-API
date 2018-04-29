@@ -11,6 +11,7 @@ router.post("/dept",function(req,res){
     //console.log(req.body);
     Dept.create(req.body).then(function(dept){
         res.send(dept);
+
     });
 });
 
