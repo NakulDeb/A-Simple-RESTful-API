@@ -32,9 +32,7 @@ const DeptSchema = new Schema({
         type:String,
         requirec:[true,'Name field is Required']
     }
-    
 });
-
 
 const Dept = mongoose.model('dept',DeptSchema);
 module.exports = Dept;
